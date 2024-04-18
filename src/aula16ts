@@ -1,5 +1,5 @@
-class Conta {
-  protected numero: number;
+abstract class Conta { //classe abstrata não pode ser instanciada
+  protected readonly numero: number; //readonly n permite atribuição depois
   protected titular: string;
 
   constructor(titular: string) {
